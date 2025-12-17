@@ -1,4 +1,5 @@
-ETL & Data Warehousing Project – Fudgemart (PostgreSQL + dbt)
+**ETL & Data Warehousing Project – Fudgemart (PostgreSQL + dbt)**
+
 Overview
 
 This project demonstrates an end-to-end ELT (Extract, Load, Transform) pipeline for a fictional retail business, Fudgemart.

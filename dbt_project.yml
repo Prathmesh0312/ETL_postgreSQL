@@ -1,0 +1,22 @@
+name: 'fudgemart_v3'
+version: '1.0.0'
+config-version: 2
+
+profile: 'fudgemart_profile'
+
+model-paths: ["models"]
+seed-paths: ["seeds"]
+macro-paths: ["macros"]
+snapshot-paths: ["snapshots"]
+test-paths: ["tests"]
+analysis-paths: ["analyses"]
+target-path: "target"
+log-path: "logs"
+
+clean-targets:
+  - "target"
+  - "dbt_packages"
+
+models:
+  fudgemart_v3:
+    +materialized: view

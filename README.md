@@ -1,4 +1,4 @@
-**ETL & Data Warehousing Project – Fudgemart (PostgreSQL + dbt)**
+## **ETL & Data Warehousing Project – Fudgemart (PostgreSQL + dbt)**
 
 Overview
 

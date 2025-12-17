@@ -36,48 +36,33 @@ Power BI – Business intelligence and visualization (planned / external)
 ### 1️. Data Extraction
 
 Source data is provided as CSV files representing:
-
 Customers
-
 Products
-
 Orders
-
 Order Details
-
 Reviews
-
 Date Dimension
+
 ### 2️. Data Loading
 
 CSV files are loaded into PostgreSQL raw tables
-
 The raw schema stores source-level, untransformed data
 
 ### 3️. Data Transformation (dbt)
 
 Using dbt Core, SQL models are applied to:
-
 Clean and standardize raw data
-
 Generate surrogate keys
-
 Create dimension tables
-
 Build fact tables with defined grain
-
 Produce mart-level analytics models
-
 All transformations are written as SQL models and executed inside PostgreSQL.
 
 ### 4️. Analytics-Ready Layer
 
 The final mart schema is optimized for:
-
 BI tools
-
 Analytical queries
-
 Business reporting
 
 ## Key Features:

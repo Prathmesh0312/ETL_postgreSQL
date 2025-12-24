@@ -54,17 +54,13 @@ jobs:
           EOF
 
       - name: Install dbt packages
-        working-directory: fudgemart_v3
         run: dbt deps
 
       - name: Load seed data
-        working-directory: fudgemart_v3
         run: dbt seed
 
       - name: Run models
-        working-directory: fudgemart_v3
         run: dbt run
 
       - name: Run tests
-        working-directory: fudgemart_v3
         run: dbt test

@@ -20,3 +20,15 @@ clean-targets:
 models:
   fudgemart_v3:
     +materialized: view
+    +schema: raw
+
+    facts:
+      +materialized: table
+      +schema: raw
+
+    marts:
+      +materialized: table
+      +schema: marts
+      +database: fudgemart_dwh
+
+

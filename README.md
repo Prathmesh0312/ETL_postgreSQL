@@ -26,11 +26,11 @@ PostgreSQL – Analytical data warehouse
 
 dbt Core – SQL-based transformations and modeling
 
-Python – Data generation and CSV handling
+Python – CSV handling
 
 GitHub – Version control and project management
 
-Power BI – Business intelligence and visualization (planned / external)
+Power BI – Business intelligence and visualization (external)
 
 
 ## Data Pipeline Workflow
@@ -84,6 +84,8 @@ Business reporting
 
 ## Key Features:
 
+end-to-end pipeline design
+
 Warehouse-agnostic ELT design
 
 SQL-first transformation logic
@@ -93,6 +95,8 @@ dbt sources, models, and tests
 Dimensional modeling (star schema)
 
 Reproducible and version-controlled pipeline
+
+Warehouse agnoistic design principles
 
 
 ## How to Run Locally:
@@ -116,13 +120,11 @@ Run transformations: dbt run
 Run tests: dbt test
 
 
-## Future Enhancements:
+## Enhancements:
 
 CI/CD with GitHub Actions
 
 Incremental models
-
-Airflow orchestration
 
 Power BI dashboards
 
